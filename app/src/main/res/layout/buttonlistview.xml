@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/corner">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+        <ListView
+            android:id="@+id/ListView"
+            android:dividerHeight="0dp"
+            android:divider="@null"
+            android:background="#f6f6f6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        android:background="#d4d4d4" />
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/settle"
+            android:layout_marginRight="14dp"
+            android:textColor="#ff7728"
+            android:id="@+id/showprice" />
+
+        <Button
+            android:text="去结账"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btncorner"
+            android:id="@+id/settle"
+            android:layout_gravity="right"
+            android:layout_alignBaseline="@+id/showprice"
+            android:layout_alignBottom="@+id/showprice"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

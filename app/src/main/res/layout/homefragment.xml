@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/corner"
+        android:layout_weight="1">
+
+        <SearchView
+            android:id="@+id/search"
+            android:iconifiedByDefault="false"
+            android:queryHint="请输入商品名"
+            android:queryBackground="@null"
+            android:showDividers="none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="15dp"
+        android:background="@drawable/corner">
+
+
+        <ViewFlipper
+            android:layout_width="wrap_content"
+            android:id="@+id/viewfliper"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/corner">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:weightSum="1">
+
+                <ImageButton
+                    style="@style/imgbtn"
+                    android:id="@+id/imageButton1"
+                    app:srcCompat="@drawable/h1"
+                    android:layout_weight="0.03" />
+
+                <TextView
+                    android:text="手机数码"
+                    style="@style/tv"
+                    android:id="@+id/textView1"
+                    android:layout_weight="0.27" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    style="@style/imgbtn"
+                    app:srcCompat="@drawable/h2"
+                    android:id="@+id/imageButton2"
+                    android:layout_height="48dp" />
+
+
+                <TextView
+                    android:text="游戏装备"
+                    style="@style/tv"
+                    android:id="@+id/textView2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    style="@style/imgbtn"
+                    app:srcCompat="@drawable/h3"
+                    android:id="@+id/imageButton3" />
+
+                <TextView
+                    android:text="生活百货"
+                    style="@style/tv"
+                    android:id="@+id/textView3" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    style="@style/imgbtn"
+                    app:srcCompat="@drawable/h4"
+                    android:id="@+id/imageButton4" />
+
+                <TextView
+                    android:text="运动户外"
+                    style="@style/tv"
+                    android:id="@+id/textView4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    style="@style/imgbtn"
+                    app:srcCompat="@drawable/h5"
+                    android:id="@+id/imageButton5" />
+
+                <TextView
+                    android:text="家用电器"
+                    style="@style/tv"
+                    android:id="@+id/textView5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    style="@style/imgbtn"
+                    app:srcCompat="@drawable/h6"
+                    android:id="@+id/imageButton6" />
+
+                <TextView
+                    android:text="美妆"
+                    style="@style/tv"
+                    android:id="@+id/textView6" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    style="@style/imgbtn"
+                    app:srcCompat="@drawable/h7"
+                    android:id="@+id/imageButton7" />
+
+                <TextView
+                    style="@style/tv"
+                    android:id="@+id/textView7" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    style="@style/imgbtn"
+                    app:srcCompat="@drawable/h8"
+                    android:id="@+id/imageButton8" />
+
+                <TextView
+                    style="@style/tv"
+                    android:id="@+id/textView8" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    style="@style/imgbtn"
+                    app:srcCompat="@drawable/h9"
+                    android:id="@+id/imageButton9" />
+
+                <TextView
+                    style="@style/tv"
+                    android:id="@+id/textView9" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

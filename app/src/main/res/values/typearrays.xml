@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data">
+        <item>手机数码</item>
+        <item>游戏装备</item>
+        <item>生活百货</item>
+        <item>运动户外</item>
+        <item>家用电器</item>
+        <item>美妆</item>
+    </string-array>
+</resources>

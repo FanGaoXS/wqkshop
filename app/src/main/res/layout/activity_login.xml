@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.wqkshop.LoginActivity">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:background="@drawable/corner"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="账号"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="69dp"
+            android:id="@+id/textView"
+            android:layout_alignBaseline="@+id/editText"
+            android:layout_alignBottom="@+id/editText"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:text="密码"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_marginTop="63dp"
+            android:id="@+id/textView13" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="输入密码"
+            android:ems="10"
+            android:layout_below="@+id/editText"
+            android:layout_alignLeft="@+id/editText"
+            android:layout_marginTop="49dp"
+            android:id="@+id/editText2" />
+
+        <Button
+            android:text="登录"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="79dp"
+            android:id="@+id/button"
+            android:textColor="#fff"
+            android:background="@drawable/btncorner"
+            android:onClick="Click"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="输入用户名"
+            android:ems="10"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="153dp"
+            android:id="@+id/editText"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView" />
+    </RelativeLayout>
+</LinearLayout>
