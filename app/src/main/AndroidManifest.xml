@@ -19,7 +19,6 @@
         <activity android:name=".GoodsList" />
         <activity android:name=".GoodsShow" />
         <activity android:name=".BillActivity" />
-        <activity android:name=".Main2Activity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".SearchShow" />
         <activity android:name=".loveActivity"></activity>
